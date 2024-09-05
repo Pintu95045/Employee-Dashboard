@@ -1,0 +1,80 @@
+Employee Dashboard Project Documentation
+
+Project Overview
+The Employee Dashboard is a web application that allows users to add, view, and delete employee information. It features a form for inputting employee details, a display area for showing added employees, and error handling for invalid input.
+
+Technologies Used
+HTML: Structure and content of the web page.
+CSS: Styling and layout of the page.
+JavaScript: Interactivity and dynamic content management.
+Project Structure
+bash
+Copy code
+/project-root
+│
+├── index.html
+├── style.css
+└── script.js
+index.html
+The main HTML file that defines the structure of the Employee Dashboard.
+
+style.css
+The CSS file used for styling the HTML elements.
+
+script.js
+The JavaScript file that handles the logic for adding, displaying, and deleting employees.
+
+Setup Instructions
+Clone the Repository
+
+bash
+Copy code
+git clone <repository-url>
+cd <repository-folder>
+Open index.html
+
+Open index.html in your preferred web browser to view the Employee Dashboard.
+
+Usage
+Add an Employee
+
+Enter the employee's name, profession, and age into the respective input fields.
+Click the "Add User" button to add the employee.
+Success or error messages will be displayed accordingly.
+View Employees
+
+Added employees will be displayed in the "Added Employees" section.
+Delete an Employee
+
+Click the "Delete User" button next to the employee you want to remove.
+The employee will be removed from the list.
+Code Explanation
+index.html
+Defines the structure of the dashboard, including:
+
+Input fields for employee details.
+Buttons for adding employees.
+Sections for displaying messages and employee lists.
+style.css
+Contains styles for the dashboard, including:
+
+Universal Styles: Applied to all elements for consistency.
+Header Styles: Adjusted font and margins for headers.
+Form Layout: Flexbox for form alignment.
+Column Layout: Width and padding for input columns.
+Input Styles: Styling for input fields.
+Button Styles: Styling for buttons, including hover effects.
+Error Message Styles: Different styles for success and error messages.
+Employee List Styles: Layout and styling for employee entries.
+script.js
+Handles the functionality of the dashboard:
+
+Event Listener: Listens for clicks on the "Add User" button to add employees.
+Validation: Checks if all input fields are filled before adding an employee.
+Employee Management: Adds new employees to an array, displays them, and handles deletion.
+Display Function: Updates the employee list and count on the page.
+Delete Function: Removes employees from the list based on their ID.
+Future Improvements
+Form Validation: Enhance form validation to include more robust checks.
+Responsive Design: Improve layout for better responsiveness on different devices.
+Persistent Storage: Implement local storage or backend integration to persist employee data.
