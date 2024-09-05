@@ -1,0 +1,1 @@
+The Employee Dashboard is a web application that allows users to add, view, and delete employee information. It features a form for inputting employee details, a display area for showing added employees, and error handling for invalid input.
